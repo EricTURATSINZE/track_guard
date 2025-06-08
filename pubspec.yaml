@@ -1,0 +1,58 @@
+name: incident_tracker
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  go_router: ^14.2.1
+  shimmer: ^3.0.0
+  easy_localization: ^3.0.7
+  sqflite: ^2.3.3
+  provider: ^6.1.5
+  fluttertoast: ^8.2.12
+  http: ^1.2.2
+  dio: ^5.8.0+1
+  shared_preferences: ^2.3.1
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  package_info_plus: ^8.1.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icon.PNG"
+  adaptive_icon_background: "#1E2048"
+  adaptive_icon_foreground: "assets/images/icon.PNG"
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
