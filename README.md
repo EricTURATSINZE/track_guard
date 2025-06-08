@@ -8,14 +8,15 @@ A comprehensive incident management application built with Flutter that allows u
 
 ## 📸 Screenshots
 
-### Login Screen
-![Login Screen](./assets/images/Screenshot1.jpeg)
+<div align="center">
+  <img src="./assets/images/Screenshot1.jpeg" alt="Login Screen" width="250"/>
+  <img src="./assets/images/Screenshot2.jpeg" alt="Home Screen" width="250"/>
+  <img src="./assets/images/Screenshot3.jpeg" alt="Profile Screen" width="250"/>
+</div>
 
-### Home Screen
-![Dashboard](./assets/images/Screenshot2.jpeg)
-
-### Profile Screen
-![Profile](./assets/images/Screenshot3.jpeg)
+<div align="center">
+  <strong>Login Screen</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Home Screen</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Profile Screen</strong>
+</div>
 
 ## 🛠️ Tools and Packages Used
 
