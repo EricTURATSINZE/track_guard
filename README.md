@@ -9,13 +9,13 @@ A comprehensive incident management application built with Flutter that allows u
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](./assets/images/Screenshot1.jpeg)
 
-### Dashboard/Home Screen
-![Dashboard](screenshots/dashboard.png)
+### Home Screen
+![Dashboard](./assets/images/Screenshot2.jpeg)
 
 ### Profile Screen
-![Profile](screenshots/profile.png)
+![Profile](./assets/images/Screenshot3.jpeg)
 
 ## 🛠️ Tools and Packages Used
 
@@ -51,12 +51,11 @@ A comprehensive incident management application built with Flutter that allows u
 ## ✨ Key Features
 
 - **User Authentication**: Secure login with email/password and social login options
-- **Incident Management**: Create, view, and manage incidents with priority levels (Low, Medium, High)
-- **Dashboard Overview**: Clean interface showing incident statistics and recent activities
+- **Incident Management**: Create, view, and manage incidents with Categories (Low, Medium, High)
+- **HomeScreen Overview**: Clean interface showing the list of incidents where you can search or filter by Category or Status
 - **Profile Management**: User profile with contact information and account details
 - **Local Data Storage**: Offline capability with SQLite database
 - **Image Support**: Attach images to incidents using camera or gallery
-- **Responsive Design**: Optimized for various screen sizes
 - **Modern UI**: Clean, intuitive interface with loading animations
 
 ## 🏗️ Architecture
