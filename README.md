@@ -1,16 +1,77 @@
-# incident_tracker
+# TrackGuard - Incident Management Flutter App
 
-A new Flutter project.
+A comprehensive incident management application built with Flutter that allows users to track, manage, and monitor various incidents with different priority levels.
 
-## Getting Started
+## 📱 APK Download
 
-This project is a starting point for a Flutter application.
+[Download APK](https://drive.google.com/file/d/1w7uejDZm9Uey1si-J8_MSfDSSsUN6pFm/view?usp=drive_link)
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Login Screen
+![Login Screen](screenshots/login.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Dashboard/Home Screen
+![Dashboard](screenshots/dashboard.png)
+
+### Profile Screen
+![Profile](screenshots/profile.png)
+
+## 🛠️ Tools and Packages Used
+
+### Core Dependencies
+- **flutter**: Flutter SDK - The main framework
+- **go_router** (^14.2.1): Advanced routing and navigation management
+- **provider** (^6.1.5): State management solution
+- **sqflite** (^2.3.3): Local SQLite database for data persistence
+- **shared_preferences** (^2.3.1): Local key-value storage
+
+### Network & API
+- **http** (^1.2.2): HTTP client for API calls
+- **dio** (^5.8.0+1): Advanced HTTP client with interceptors
+
+### UI/UX Enhancements
+- **shimmer** (^3.0.0): Loading skeleton animations
+- **easy_localization** (^3.0.7): Internationalization and localization support
+- **fluttertoast** (^8.2.12): Toast notifications
+
+### Media & File Handling
+- **image_picker** (^1.1.2): Camera and gallery image selection
+- **path_provider** (^2.1.4): File system path management
+
+### Utilities
+- **package_info_plus** (^8.1.0): App package information
+- **cupertino_icons** (^1.0.6): iOS-style icons
+
+### Development Tools
+- **flutter_test**: Testing framework
+- **flutter_lints** (^3.0.0): Dart code linting
+- **flutter_launcher_icons** (^0.14.1): Custom app icon generation
+
+## ✨ Key Features
+
+- **User Authentication**: Secure login with email/password and social login options
+- **Incident Management**: Create, view, and manage incidents with priority levels (Low, Medium, High)
+- **Dashboard Overview**: Clean interface showing incident statistics and recent activities
+- **Profile Management**: User profile with contact information and account details
+- **Local Data Storage**: Offline capability with SQLite database
+- **Image Support**: Attach images to incidents using camera or gallery
+- **Responsive Design**: Optimized for various screen sizes
+- **Modern UI**: Clean, intuitive interface with loading animations
+
+## 🏗️ Architecture
+
+The app follows a clean architecture pattern with:
+- **MVC Architecture** Model-View-Controller & Services for code structure
+- **Provider** for state management
+- **SQLite** for local data persistence
+- **Go Router** for navigation management
+- **Repository pattern** for data layer abstraction
+
+## 📝 Author Declaration
+
+I confirm that this application was fully developed by me during the exam period. I have not received or used code from others except publicly available resources and packages from pub.dev.
+
+---
+
+**Developed with ❤️ using Flutter**
